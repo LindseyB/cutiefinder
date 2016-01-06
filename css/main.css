@@ -1,5 +1,25 @@
-.bootstrap-filestyle { margin: 5em auto; }
+.bootstrap-filestyle {
+  margin: 5em auto;
+}
+
+#header {
+  font-family: 'snigletextrabold', sans-serif;
+  color: #ff008c;
+}
+
 #cutie {
   margin: 5em auto;
-  max-height: 600px !important;
+  max-height: 400px !important;
+}
+
+@font-face {
+  font-family: 'snigletextrabold';
+  src: url('../assets/sniglet-extrabold-webfont.eot');
+  src: url('../assets/sniglet-extrabold-webfont.eot?#iefix') format('embedded-opentype'),
+  url('../assets/sniglet-extrabold-webfont.woff2') format('woff2'),
+  url('../assets/sniglet-extrabold-webfont.woff') format('woff'),
+  url('../assets/sniglet-extrabold-webfont.ttf') format('truetype'),
+  url('../assets/sniglet-extrabold-webfont.svg#snigletextrabold') format('svg');
+  font-weight: normal;
+  font-style: normal;
 }
