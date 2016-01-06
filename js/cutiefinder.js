@@ -3,6 +3,7 @@ $("#header").fitText();
 $(document).ready(function(){
   $("#filestyle-0").change(function(){
     $('#result').removeClass('hidden');
+    $("html, body").animate({ scrollTop: $(document).height() }, "fast");
     $(":file").filestyle('buttonText', 'UPLOAD ANOTHER');
     $("#cutierating").empty();
     readImage(this);
