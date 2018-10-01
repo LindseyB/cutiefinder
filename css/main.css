@@ -12,6 +12,10 @@
   max-height: 400px !important;
 }
 
+.social-share {
+  margin-top: 10px;
+}
+
 @font-face {
   font-family: 'snigletextrabold';
   src: url('../assets/sniglet-extrabold-webfont.eot');
